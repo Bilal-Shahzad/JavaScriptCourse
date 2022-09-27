@@ -1,10 +1,19 @@
 // strings
 // data type used in to represent text and is in either in single or double quotes
 
-
+var runningBack = "Saquon"
 // primitive data types
-//string, number, boolean, null, udefined, symbol
-
+//string, number, boolean, null, undefined, symbol
+var lastName = 'shahzad'
+var number = 14
+var giantWin = false
+var cowboysWin = true
+var hello = null
+console.log(hello)
+var Giants
+console.log(Giants)
+var symbol = Symbol();
+console.log(symbol)
 // best practice
 //choose one approach and be consistent 
 var name = 'Bilal';
@@ -22,9 +31,9 @@ var response = 'Billy said, "I am sick"';
 // Escape character
 //backslash excape character turns special characters into string characters
 var greeting = 'It\'s great to see you!';
-var response = "Billy said, \"I am sick""; 
+var response = "Billy said, \"I am sick";
 
 //Length Property 
 // Returns lentgh of a string 
-cvar greeting = "It's goot to meet you!";
+var greeting = "It's goot to meet you!";
 greeting.length; //22
