@@ -12,7 +12,7 @@ var hello = null
 console.log(hello)
 var Giants
 console.log(Giants)
-var symbol = Symbol();
+var symbol = symbol();
 console.log(symbol)
 // best practice
 //choose one approach and be consistent 
