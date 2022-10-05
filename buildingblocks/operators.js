@@ -46,3 +46,10 @@ var y = '8';
 var equals = x == y;
 console.log("hittin here", equals)
 //if we want to see if they are equal use the double equal signs 
+
+//triple equals checks for value and type 
+var firstName = 'Bilal';
+var middleName = '-';
+var lastName = 'Shahzad';
+var fullName = firstName + '' + middleName + '' + lastName;
+console.log(fullName)
