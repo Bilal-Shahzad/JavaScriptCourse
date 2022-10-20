@@ -6,7 +6,7 @@
 
 //object literal notation {}
 
-var car = {
+var car = { 
     wheels: 4,
     color: 'silver',
     mpg: 34,
@@ -36,3 +36,4 @@ car['mpg']= 34;
 car['engine']=1;
 car['gallons']=12;
 console.log(car2)
+
