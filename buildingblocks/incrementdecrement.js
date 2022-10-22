@@ -35,4 +35,4 @@
 var y = 7;
 
 var bilal5 = --y;
-conosole.log(bilal5)
+console.log('hits here', bilal5)
