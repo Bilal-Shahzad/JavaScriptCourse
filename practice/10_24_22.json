@@ -1,0 +1,22 @@
+{
+    "name": "Muhammad Ishaq",
+    "gender": "Male",
+    "age": 23,
+    "address": {
+        "street": "87",
+        "city": "Gultari Matyal Skardu",
+        "state": "Gilgit Baltistan",
+        "postalCode": "16350",
+        "family": {
+            "DOB": 94
+        }
+    },
+    "phoneNumber": [
+        { "type": "personal", "number": "116263747" }
+    ]
+} 
+
+console.log(street)
+address.street = 88
+var information = address.family.DOB
+console.log(information)
