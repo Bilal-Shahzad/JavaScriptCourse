@@ -24,3 +24,8 @@ console.log(greetFullName('Bilal','Shahzad'))
 
 //iife 
 //immediately invoked function expressions
+//function is a wrapped function 
+var greetFullName2 = (function(firstName, lastName) {
+    return 'Hello,' + firstName + '' + lastName + '!';
+}());
+//it immediately calls function may be inside or outside of wrapped function place arguments within ()
