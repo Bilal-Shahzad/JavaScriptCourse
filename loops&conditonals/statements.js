@@ -37,10 +37,26 @@ console.log(equation) //true
 // }
 // no code ran
 
-var testScore = 88;
-if (testScore > 90) {
-    cosnoel.log ('Congrats on passing');
-} else {
-    console.log('you failed')
+var testScore = [95,89,90,42];
+// if (testScore > 90) {
+//     console.log ('Congrats on passing');
+// } else {
+//     console.log('you failed')
+// }
+console.log(testScore[0,1], 'line 46') 
+
+function check(testScore) {
+    if (testScore[0] > 90) {
+        console.log ('Congrats on passing');
+          
+    } else {
+        console.log('you failed')
+    } 
+    if (testScore[1] > 90) {
+        console.log ('Congrats on passing');
+          
+    } else {
+        console.log('you failed')
+    } 
 }
-  
+console.log(check(testScore, 'line 57'))
