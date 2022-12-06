@@ -63,4 +63,3 @@ for (i = 0;i < arrayLength; i++) {
     //use bracket for the 'i' since we are calling from it 
     console.log('My favorite zoo anumal is the' + zooName[i] +'!');
 }        
-console.log('My favorite zoo anumal is the' + zooName[i] +'!');
