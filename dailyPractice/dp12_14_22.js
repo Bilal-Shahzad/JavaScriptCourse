@@ -1,5 +1,9 @@
 // write a function that has a 8 nubers 
-var number = [9,0,2,0,4,5,12,13];
+var number = [];
+while(number.length < 8){
+    var n = Math.floor(Math.random() * 100) + 1;
+    if(number.indexOf(n) === -1) number.push(n);
+}
 console.log(number.length);
 //add 8 to the end of array
 number.push(8);
