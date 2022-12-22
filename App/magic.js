@@ -18,7 +18,7 @@ console.log(randomNumber);
 var eightBall = '';
 
 
-
+//  We need to create a control flow that takes in the randomNumber
 switch (randomNumber){
   case 0:
     eightBall = 'It is certain';
