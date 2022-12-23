@@ -28,3 +28,7 @@ this.city = city;
 
 var home1 = new Home( 3, false, 'blue', true, 'Kansas', 'Wichita' )
 console.log(home1)
+
+var home2 = {}
+home2.rooms = 4;
+console.log(home2)
