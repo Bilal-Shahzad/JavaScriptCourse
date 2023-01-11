@@ -1,8 +1,8 @@
 // In JavaScript the this keyword refers to an object
 // The this keyword refers to different objects depending on how it is used
-fullName : function() {
-    return this.firstName + " " + this.lastName;
-  }
+// fullName : function() {
+//     return this.firstName + " " + this.lastName;
+//   }
 // this refers to the person object
 
 // this Alone

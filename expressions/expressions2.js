@@ -25,3 +25,15 @@ const three = foo[2];
 // with destructuring
 const [one, two, three] = foo;
 console.log(foo)
+
+
+// Testing a regex
+let testString = "My test string";
+let testRegex = /string/;
+testRegex.test(testString);
+
+// Ignoring case
+// Use the i flag for case insensitivity
+const caseInsensitiveRegex = /ignore case/i;
+const testString = 'We use the i flag to iGnOrE CasE';
+caseInsensitiveRegex.test(testString); 
