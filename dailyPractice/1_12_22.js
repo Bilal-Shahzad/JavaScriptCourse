@@ -34,7 +34,7 @@ var age =  Object.values(people)
 console.log(age , "age here")
 people.Ben = 13
 console.log(people ,"name change")
-var deleteBenAge = people.splice('Ben',13)
+var deleteBenAge = splice(people.Ben)
 console.log(deleteBenAge)
 
 var friends = {
