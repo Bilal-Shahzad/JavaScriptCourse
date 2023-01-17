@@ -23,5 +23,15 @@ console.log(myLanguages()) //undefined
 var person1 = {
     name: "Bilal "
 }
+
 console.log(myLanguages.call(person1, 'JavaScript', "HTML" , "CSS"))
 // My name is Bilal and I know JavaScript,HTML, and CSS
+
+var person2 = {
+    name: "Sarah"
+} 
+
+var languages = ["engish" , "spanish" ,"french"]
+
+console.log(myLanguages.call(person2, languages[0], languages[1], languages[2] ))
+// My name is Sarah and I know engish,spanish, and french
