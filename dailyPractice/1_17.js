@@ -20,23 +20,22 @@ var uniqueSet = new Set(list)
 console.log(uniqueSet)
 
 var people = {
-    'Ben': 24,
-    'Kyrie': 28,
-    'Kevin': 33,
-    'Lebron': 39,
-    'Oscar': 44
+    'Ben': 84,
+    'Allen': 48,
+    'Bosh': 43,
+    'Lebron': 12,
+    'Chris':13
 }
 console.log(people)
 
 var names = Object.keys(people)
 console.log(names)
 var age =  Object.values(people)
-console.log(age , "age here")
+console.log(age )
 people.Ben = 13
-console.log(people ,"name change")
-// var deleteBenAge = splice(people.Ben)
-// console.log(deleteBenAge)
-// needs work on 
+console.log(people )
+var deleteBenAge = splice(people.Ben)
+console.log(deleteBenAge)
 var friends = {
     Ben : {
         month : "Jan",
