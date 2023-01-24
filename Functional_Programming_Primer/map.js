@@ -62,3 +62,4 @@ var triples = numbers.map(function(num) {
 })
 // map passes all elements in a transformed state 
 console.log(triples)
+// [ 15, 30, 45, 60, 75 ]
