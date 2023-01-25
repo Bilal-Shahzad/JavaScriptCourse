@@ -33,10 +33,21 @@ console.log(totalHomers)
 
 // my solution
 var numbers = [5,10,15,20,25]
-numbers.reduce(function newNumbers(x,y) {
+numbers.reduce(function (x,y) {
     console.log(x, y);
     return x + y;
 });
 
 console.log(newNumbers)
-// [ 5, 10, 15, 20, 25 ]
+
+// find the largerst
+
+numbers.reduce(function(acc,curr) {
+    if ( acc >curr) {
+        return acc
+    }
+
+else{
+    return curr;
+}
+})
