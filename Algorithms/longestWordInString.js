@@ -56,3 +56,4 @@ function maxWord(string) {
     return biggestWord
 }
  console.log(maxWord('My favorite day is Sunday'))
+// 8

@@ -64,4 +64,6 @@ function unique(string) {
 }
 console.log(unique('vehicle'))
 // false
+// two e's
 console.log(unique('car'))
+// true 
