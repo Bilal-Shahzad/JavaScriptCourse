@@ -43,7 +43,7 @@ var people = {
         month: "February",
         year: 2000
     },
-    Roy : {
+    Test : {
         month: "March",
         year: 2004
     },
