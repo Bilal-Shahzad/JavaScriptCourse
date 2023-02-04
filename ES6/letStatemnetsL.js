@@ -46,6 +46,7 @@ function letTest() {
     let x = 1
     if(true) {
         let x = 2
+        // let x is a local scope 
         console.log(x)
     }
     console.log(x)
