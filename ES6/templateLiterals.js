@@ -8,9 +8,8 @@
 
 
 //  new line ES%
-// var sentence = 'My name is Rob /n
-// and I like to run';
-// console.log(sentence)
+var sentence = 'My name is Rob \n and I like to run';
+console.log(sentence)
 // lets the interpreter that a new line is wanted 
 
 
