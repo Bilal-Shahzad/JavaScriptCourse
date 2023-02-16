@@ -26,3 +26,4 @@ scaryCreatures.forEach(function(scaryCreatures) {
     console.log(`Dorothy is afraid of ${scaryCreatures})`)
     
 })
+
