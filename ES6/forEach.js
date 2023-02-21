@@ -18,7 +18,7 @@
 // forLoop 
 var scaryCreatures = ['lions', 'tigers', 'bears']
 for( var i = 0; i < scaryCreatures.length; i++) {
-    console.log(`Dorothy is afraid of ${scaryCreaturs[i]}.`))
+    console.log(`Dorothy is afraid of ${scaryCreaturs[i]}.`)
 }
 
 // forEach
