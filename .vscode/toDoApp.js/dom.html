@@ -1,0 +1,24 @@
+<!-- The DOM (Document Object Model) is a representation of an HTML or XML document as a tree-like structure of objects. 
+Each element, attribute, and piece of text in the document is represented by a node in the tree, and these nodes can be manipulated using JavaScript-->
+
+<!-- The document object is a top-level object in the DOM hierarchy that represents the entire HTML or XML document. 
+ One of these properties is textContent. The textContent property allows you to get or set the text content of an element. -->
+
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Example</title>
+	<script>
+		window.onload = function() {
+			// Get the element with the ID "example"
+			var element = document.getElementById("example");
+			
+			// Change the text content of the element
+			element.textContent = "Hello, world!";
+		};
+	</script>
+</head>
+<body>
+	<div id="example">This is some example text.</div>
+</body>
+</html>
