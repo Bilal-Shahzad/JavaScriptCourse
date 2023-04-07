@@ -78,7 +78,9 @@ grid.addEventListener('click', function(event) {
     // Add selected class
     clicked.classList.add('selected');
   }
-});
+
+if (count < 2) {
+    count++;
 
 if (count === 1) {
     // Assign first guess
