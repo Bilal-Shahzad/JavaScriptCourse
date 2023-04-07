@@ -13,6 +13,14 @@ var cardsArray = [
     {    'name': 'Wordpress',    'img': 'https://github.com/robgmerrill/img/blob/master/wordpress-logo.png?raw=true',  },
   ];
 
+  // Duplicate cardsArray to create a match for each card
+var gameGrid = cardsArray.concat(cardsArray);
+
+// Randomize game grid on each load
+gameGrid.sort(function() {
+  return 0.5 - Math.random();
+})
+
 
 // grab the div with an id of game-board and assing variable game 
 var game = document.getElementById('game-board')
@@ -45,6 +53,13 @@ for (i = 0; i < cardsArray.length; i++) {
     grid.appendChild(card)
 } 
 
+var firstGuess = '';
+var secondGuess = '';
+// Set count to 0
+var count = 0;
+var previousTarget = null;
+
+
 // Set count to 0
 var count = 0;
 
@@ -63,4 +78,25 @@ grid.addEventListener('click', function(event) {
     // Add selected class
     clicked.classList.add('selected');
   }
+});
+
+if (count === 1) {
+    // Assign first guess
+    firstGuess = clicked.dataset.name;
+    clicked.classList.add('selected');
+  } else {
+    // Assign second guess
+    secondGuess = clicked.dataset.name;
+    clicked.classList.add('selected');
+  }
+  // If both guesses are not empty
+  if (firstGuess !== '' && secondGuess !== '') {
+    // And the firstGuess matches secondGuess
+    if (firstGuess === secondGuess) {
+      // Run the match function
+      match();
+    }
+  }
+  previousTarget = clicked;
+}
 });
