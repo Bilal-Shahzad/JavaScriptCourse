@@ -44,3 +44,23 @@ for (i = 0; i < cardsArray.length; i++) {
     // append the div to the grid section 
     grid.appendChild(card)
 } 
+
+// Set count to 0
+var count = 0;
+
+// Add event listener to grid
+grid.addEventListener('click', function(event) {
+  // Declare variable to target our clicked item
+  var clicked = event.target;
+  // Do not allow the grid section itself to be selected;
+  // only select divs inside the grid
+  if (clicked.nodeName === 'SECTION') {
+    return;
+  }
+  // We only want to add `selected` class if the current count is less than 2
+  if (count < 2) {
+    count++;
+    // Add selected class
+    clicked.classList.add('selected');
+  }
+});
