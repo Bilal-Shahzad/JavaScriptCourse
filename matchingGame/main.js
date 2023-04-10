@@ -59,6 +59,26 @@ var secondGuess = '';
 var count = 0;
 var previousTarget = null;
 
+// Add match CSS
+var match = function() {
+    var selected = document.querySelectorAll('.selected');
+    // loop through the array like object containing `selected` class
+    for (i = 0; i < selected.length; i++) {
+      selected[i].classList.add('match');
+    }
+  };
+// Reset guesses after two attempts
+var resetGuesses = function() {
+    firstGuess = '';
+    secondGuess = '';
+    count = 0;
+    previousTarget = null;
+
+    var selected = document.querySelectorAll('.selected');
+    for (i = 0; i < selected.length; i++) {
+      selected[i].classList.remove('selected');
+    }
+  };
 
 // Set count to 0
 var count = 0;
