@@ -52,6 +52,21 @@ for (i = 0; i < cardsArray.length; i++) {
     grid.appendChild(card)
 } 
 
+// Create front of card
+var front = document.createElement('div');
+front.classList.add('front');
+
+// Create back of card
+var back = document.createElement('div');
+back.classList.add('back');
+back.style.backgroundImage = `url(${gameGrid[i].img})`;
+
+// Append card to grid
+grid.appendChild(card);
+card.appendChild(front);
+card.appendChild(back);
+
+
 var firstGuess = '';
 var secondGuess = '';
 // Set count to 0
