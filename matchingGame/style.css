@@ -43,6 +43,11 @@ body {
   backface-visibility: hidden;
 }
 
+.front {
+  z-index: 2;
+  background: #FAB942 url('../img/question.gif') no-repeat center center / contain;
+}
+
 .selected {
   border: 4px solid blue;
 }
