@@ -37,6 +37,12 @@ body {
   width: 150px;
 }
 
+.back,
+.front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
 .selected {
   border: 4px solid blue;
 }
