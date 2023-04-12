@@ -48,6 +48,14 @@ body {
   background: #FAB942 url('../img/question.gif') no-repeat center center / contain;
 }
 
+.back {
+  transform: rotateY(180deg);
+  background-color: #6589F9;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .selected {
   border: 4px solid blue;
 }
