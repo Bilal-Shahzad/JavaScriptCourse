@@ -21,21 +21,6 @@ gameGrid.sort(function() {
   return 0.5 - Math.random();
 })
 
-// Loop through each item in our cards array
-for (i = 0; i < gameGrid.length; i++) {
-    // create a div element and assign to variable card
-    var card = document.createElement('div');
-    // Apply a card class to that div
-    card.classList.add('card');
-    // Set the data-name attribute of the div to the cardsArray name
-    card.dataset.name = gameGrid[i].name;
-    // Apply the background image of the div to the cardsArray image
-    card.style.backgroundImage = `url(${gameGrid[i].img})`;
-    // Append the div to the grid section
-    grid.appendChild(card);
-  }
-
-
 // grab the div with an id of game-board and assing variable game 
 var game = document.getElementById('game-board')
 
