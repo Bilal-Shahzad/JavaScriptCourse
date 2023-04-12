@@ -115,9 +115,12 @@ if (count === 1) {
     // And the firstGuess matches secondGuess
     if (firstGuess === secondGuess) {
       // Run the match function
-      match();
+      setTimeout(match, delay);
+      setTimeout(resetGuesses, delay);
+    } else {
+        setTimeout(resetGuesses, delay);
+      }
     }
+    previousTarget = clicked;
   }
-  previousTarget = clicked;
-}
 });
