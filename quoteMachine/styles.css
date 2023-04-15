@@ -33,9 +33,6 @@ button {
   border: none;
 }
  
-/**
-* Blockquotes
-*/
 blockquote {
   border-left: 0.25em solid #e5e5e5;
   font-style: italic;
