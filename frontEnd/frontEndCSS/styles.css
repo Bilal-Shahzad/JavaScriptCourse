@@ -75,3 +75,17 @@ header #main-navigation ul li a:hover {
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/transition */
     transition: 0.3s ease all;
 } 
+
+footer   {
+    background: #222;
+    color: #777;
+    padding: 40px;
+    text-align: center;
+  }
+  footer img   {
+    display: block;
+    border-radius: 5px;
+    width: 80px;
+    margin: 0 auto 10px;
+  }
+  
