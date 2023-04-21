@@ -164,3 +164,26 @@ footer   {
     width: 100%;
     padding: 50px 0;
 }
+
+.service-box {
+    display: inline-block;
+    width: 24%;
+    padding: 20px 30px;
+    line-height: 1;
+}
+
+.service-box img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.service-box h5 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 300px;
+    letter-spacing: 2px;
+}
+
