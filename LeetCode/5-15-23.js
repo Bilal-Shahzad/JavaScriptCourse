@@ -17,10 +17,7 @@
 
 // my solution
 
-Array.prototype.last = function() {
-  if (this.length === 0) {
-    return -1;
-  } else {
-    return this[this.length - 1];
-  }
-};
+function random(nums) {
+  nums = [1,2,3]
+}
+console.log(random(nums))
