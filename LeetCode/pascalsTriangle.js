@@ -11,7 +11,10 @@ var generate = function(numRows) {
     for (let i = 1; i < numRows; i++){
         var newArr = [1]
         for (let j =1; j < i; j++) {
-            newArr.push(triangle[i-1][j] + triangle[i-1][j-1])
+            const value1 = triangle[i - 1][j - 1];
+            const value2 = triangle[i - 1][j];
+            newArr.push(value1 + value2);
+            console.log(`Adding ${value1} + ${value2} = ${value1 + value2}`);        
         }
         newArr.push(1)
         triangle.push(newArr)
