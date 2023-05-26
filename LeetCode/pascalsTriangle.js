@@ -18,6 +18,17 @@ var generate = function(numRows) {
         }
         newArr.push(1)
         triangle.push(newArr)
+
+        if (i === 1) {
+            console.log("First");
+            console.log(newArr);
+          } else if (i === 2) {
+            console.log("Second");
+            console.log(newArr);
+          } else if (i === 3) {
+            console.log("Third");
+            console.log(newArr);
+          }
     }
     return triangle 
 };
