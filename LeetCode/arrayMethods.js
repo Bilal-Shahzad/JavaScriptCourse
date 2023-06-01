@@ -56,3 +56,26 @@ fruits.forEach((elem) => {
   console.log(elem);
 });
 // : Executes a provided function once for each array element.
+
+const mappedArray = fruits.map((elem) => {
+  return elem + "! ";
+});
+// : Creates a new array with the results of calling a provided function on every element in the calling array.
+console.log("\n", "mappedArray: ", mappedArray);
+
+const filteredFruits = fruits.filter((word) => word.length > 6);
+// : Creates a new array with all elements that pass the test implemented by the provided function.
+console.log("\n", "filteredFruits: ", filteredFruits);
+
+// The Array.reduce() method in JavaScript is used to apply a function to each element in an array and reduce the array to a single value. The function takes two arguments: an accumulator, which accumulates the values from the array, and the current value, which is the current element being processed in the array. The reduce() method returns the final value of the accumulator.
+
+const numsArray = [1, 2, 3];
+
+// 0 + 1 + 2 + 3
+const initialValue = 0;
+const sumWithInitial = numsArray.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue
+);
+
+console.log(sumWithInitial);
