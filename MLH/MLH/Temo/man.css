@@ -1,0 +1,37 @@
+:root{
+    --bs-body-font-family: 'Montserrat', sans-serif;
+
+}
+
+
+body {
+    background-color: #ebcfed;
+    
+    height: 100%;
+}
+
+.middle-box{
+    
+    /* TODO Change width and height to be different depending on screen size */
+    min-height: 700px;
+
+
+    border: 1px solid black;
+    
+
+}
+
+.middle-left-box{
+    
+    color: black;
+
+}
+
+.middle-right-box{
+
+    color: black;
+    background-image: url('../img/right-bg.png');
+    background-size: 100% 100%;
+
+
+}
