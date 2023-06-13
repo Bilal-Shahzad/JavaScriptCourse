@@ -49,7 +49,7 @@ function maxProfit(prices) {
         
        else if (prices[i] - minPrice > maximumProfit)  {
 
-        console.log(minPrice, 'minPrice in mid of else if statemnt') 
+        console.log(minPrice, 'minPrice in mid of else if statemnt') // 7 
         console.log(prices[i], 'prices mid of else if') 
         console.log(maximumProfit, 'maximumProfit mid of else if ')
 
