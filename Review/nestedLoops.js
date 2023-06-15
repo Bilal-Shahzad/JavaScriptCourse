@@ -12,3 +12,4 @@ function showPattern(totalRowsPatternCount) {
     console.log(patternDesign);
   }
 }
+g
