@@ -1,7 +1,5 @@
 // Write a function which checks given input/parameter
 
-console.log('5-speed-limits');
-
 /* 
 <h3>Write a function which checks given input/parameter:</h3>
   
@@ -30,15 +28,11 @@ function checkSpeedLimit(curSpeed) {
 
 let checkPoin1 = checkSpeedLimit(40);
 console.log(checkPoin1);
-
 let checkPoin2 = checkSpeedLimit(70);
 console.log(checkPoin2);
-
 let checkPoin3 = checkSpeedLimit(75);
 console.log(checkPoin3);
-
 let checkPoin4 = checkSpeedLimit(99);
 console.log(checkPoin4);
-
 let checkPoin5 = checkSpeedLimit(120);
 console.log(checkPoin5);
